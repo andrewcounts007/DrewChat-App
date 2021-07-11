@@ -1,0 +1,23 @@
+{
+  "name": "chat_room",
+  "version": "1.0.0",
+  "description": "testing a chat room program",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Andrew",
+  "license": "ISC",
+  "dependencies": {
+    "D": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.10",
+    "nodemon": "^2.0.10",
+    "socket.io": "^4.1.2"
+  }
+}
